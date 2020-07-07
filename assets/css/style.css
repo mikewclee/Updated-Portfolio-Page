@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-html, body {
+body {
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
   margin: 0px;
@@ -35,12 +35,6 @@ h1 {
   transform: translateY(-50%);
 }
 
-/* Pading for each section  */
-#contactPage, #aboutMe, #myPortfolio {
-  padding-top: 100px;
-  padding-bottom: 90px;
-}
-
 .aboutMePic {
   border: 10px solid #ddd;
   border-radius: 50%;
@@ -53,6 +47,20 @@ h1 {
   padding-left: 100px;
   padding-right: 50px;
   font-size: 1.5rem;
+}
+
+/* Pading for each section  */
+#contactPage {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+#aboutMe {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+#myPortfolio {
+  padding-top: 100px;
+  padding-bottom: 90px;
 }
 
 #landing-image {
