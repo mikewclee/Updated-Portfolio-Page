@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 html, body {
-  /* height: 100%; */
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
   margin: 0px;
@@ -39,6 +38,7 @@ html, body {
   top: 30%;
   font-size: 1.5rem;
 }
+
 .aboutMePic {
 border: 10px solid #ddd;
 border-radius: 50%;
@@ -62,7 +62,7 @@ h1 {
 
 #landing-image {
     /* background: url(https://source.unsplash.com/iar-afB0QQw); */
-    background: url("../assets/images/matrix.jpg");
+    background-image: url("../images/matrix.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ h1 {
 }
 
 #landing-image2 {
-  background: url("../assets/images/matrix.jpg");
+  background-image: url(/assets/images/codes.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,8 +80,9 @@ h1 {
   flex: 0 1 60vw;
   margin: 0;
 }
+
 #landing-image3 {
-  background: url("../assets/images/matrix.jpg");
+  background-image: url(/assets/images/office.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,6 +170,7 @@ h1 {
 .mouse_over:hover{
   opacity: 1;
 }
+
 .img-text-wrapper:hover .subtitle {
     color: lightseagreen;
     font-weight: 600;
@@ -200,7 +202,6 @@ footer {
     text-align: center;
     padding: 1rem 1rem;
     margin: auto;
-
 }
 
 /* Mobile first - Screen size 500px and up  */
