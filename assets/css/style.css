@@ -24,51 +24,15 @@ html, body {
   transform: translateY(-50%);
 }
 
-/* Pading for each section  */
-#aboutMe, #contactPage, #myPortfolio {
-  padding-top: 100px;
-  padding-bottom: 80px;
-}
-
-.aboutMeCaption{
-  margin: 0;
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 50px;
-  top: 30%;
-  font-size: 1.5rem;
-}
-
-.aboutMePic {
-border: 10px solid #ddd;
-border-radius: 50%;
-padding: 1px;
-/* width: 100px; */
-}
-
-.carousel-caption h1 {
-  font-size: 300%;
-  text-transform: capitalize;
-  text-shadow: 1px 1px 15px greenyellow;
-}
-
-h1 {
-    font-weight: 400;
-    font: bold;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    margin: 0;
-}
-
 #landing-image {
-    /* background: url(https://source.unsplash.com/iar-afB0QQw); */
-    background-image: url("../images/matrix.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 90vh;
-    flex: 0 1 60vw;
-    margin: 0;
+  /* background: url(https://source.unsplash.com/iar-afB0QQw); */
+  background-image: url("../images/matrix.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  flex: 0 1 60vw;
+  margin: 0;
 }
 
 #landing-image2 {
@@ -90,6 +54,41 @@ h1 {
   flex: 0 1 60vw;
   margin: 0;
 }
+/* Pading for each section  */
+#contactPage, #aboutMe, #myPortfolio {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.aboutMeCaption{
+  margin: 0;
+  font-size: 1.5rem;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 50px;
+  top: 30%;
+}
+
+.aboutMePic {
+  border: 10px solid #ddd;
+  border-radius: 50%;
+  padding: 1px;
+  /* width: 100px; */
+}
+
+.carousel-caption h1 {
+  font-size: 300%;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 15px greenyellow;
+}
+
+h1 {
+  font-weight: 400;
+  font: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
 
 .btn {
   padding: 0.3rem 2rem;
@@ -105,42 +104,42 @@ h1 {
 }
 
 #header {
-    padding: 1.5rem;
-    text-align: center;
+  padding: 1.5rem;
+  text-align: center;
 }
 
 .portfolio-items-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
   
 .portfolio-item-wrapper {
-    position: relative;
-    padding: 5px;
+  position: relative;
+  padding: 5px;
 }
   
 .portfolio-img-background {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 1px solid rgb(37, 177, 49);
-    border-radius: 2%;
-    height: 350px;; 
-    width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(37, 177, 49);
+  border-radius: 2%;
+  height: 350px;; 
+  width: 100%;
 }
   
 .img-text-wrapper {
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
   
 .subtitle {
@@ -154,14 +153,14 @@ h1 {
 }
 
 .img-text-wrapper .subtitle {
-    transition: 1s;
-    font-weight: 600;
-    color: transparent;
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
 }
   
 .image-blur {
-    transition: 1s;
-    filter: brightness(10%);
+  transition: 1s;
+  filter: brightness(10%);
 }
   
 .mouse_over {
@@ -172,49 +171,48 @@ h1 {
 }
 
 .img-text-wrapper:hover .subtitle {
-    color: lightseagreen;
-    font-weight: 600;
+  color: lightseagreen;
+  font-weight: 600;
 }
   
-.logo-wrapper img {
-    width: 50%;
-    margin-bottom: 30px;
-}
+/* .logo-wrapper img {
+  width: 50%;
+  margin-bottom: 30px;
+} */
   
 .two-column-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
   
 .profile-image-wrapper img {
-    width: 100%;
+  width: 100%;
 }
   
 .profile-content-wrapper {
-    padding: 50px;
+  padding: 50px;
 }
   
 .profile-content-wrapper h1 {
-    color: lightseagreen;
+  color: lightseagreen;
 }
 
 footer {
-    text-align: center;
-    padding: 1rem 1rem;
-    margin: auto;
+  text-align: center;
+  padding: 1rem 1rem;
+  margin: auto;
 }
 
 /* Mobile first - Screen size 500px and up  */
 @media(min-width: 500px){
-    #landing {
-        display: flex;
-        height: 100%;
-    }
-    #landing-text {
-        height: 100vh;
-    }
-    #landing-image {
-        height: 95vh;
-    }
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+  #landing-text {
+    height: 100vh;
+  }
+  #landing-image {
+    height: 95vh;
+  }
 }
-
