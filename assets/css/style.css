@@ -36,15 +36,7 @@ h1 {
 }
 
 /* Pading for each section  */
-#contactPage {
-  padding-top: 100px;
-  padding-bottom: 90px;
-}
-#aboutMe {
-  padding-top: 100px;
-  padding-bottom: 90px;
-}
-#myPortfolio {
+#contactPage, #aboutMe, #myPortfolio {
   padding-top: 100px;
   padding-bottom: 90px;
 }
@@ -130,12 +122,12 @@ h1 {
 }
   
 .portfolio-img-background {
+  height: 350px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid rgb(37, 177, 49);
   border-radius: 2%;
-  height: 350px;; 
   width: 100%;
 }
   
