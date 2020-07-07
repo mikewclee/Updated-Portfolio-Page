@@ -72,7 +72,7 @@ h1 {
 }
 
 #landing-image2 {
-  background-image: url(/assets/images/codes.jpg);
+  background-image: url("../images/codes.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@ h1 {
 }
 
 #landing-image3 {
-  background-image: url(/assets/images/office.jpg);
+  background-image: url("../images/office.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

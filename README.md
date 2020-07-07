@@ -12,4 +12,4 @@ Deployed link: https://mikewclee.github.io/Updated-Portfolio-Page/
 https://github.com/mikewclee/Updated-Portfolio-Page
 
 
-![AppScreenshot](assets/images/UpdatedPortfolio.jpg)
+![AppScreenshot](assets/images/UpdatedPortfolio.JPG)
