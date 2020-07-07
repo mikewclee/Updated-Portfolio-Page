@@ -62,7 +62,7 @@ h1 {
 
 #landing-image {
     /* background: url(https://source.unsplash.com/iar-afB0QQw); */
-    background: url(/assets/images/matrix.jpg);
+    background: url("../assets/images/matrix.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ h1 {
 }
 
 #landing-image2 {
-  background: url(/assets/images/codes.jpg);
+  background: url("../assets/images/matrix.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@ h1 {
   margin: 0;
 }
 #landing-image3 {
-  background: url(/assets/images/carousel3.jpg);
+  background: url("../assets/images/matrix.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
