@@ -6,7 +6,18 @@ html, body {
   margin: 0px;
   background-color: #eee;
   height: auto;
+  font: bold;
+  font-weight: 500;
 }
+
+h1 {
+  font-weight: 400;
+  font: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 .navbar-nav li {
   padding-right: 40px;
   font-size: 1.5rem;
@@ -22,6 +33,28 @@ html, body {
   position: absolute;
   top: 60%;
   transform: translateY(-50%);
+}
+
+/* Pading for each section  */
+#contactPage, #aboutMe, #myPortfolio {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.aboutMeCaption{
+  margin: 0;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 50px;
+  top: 30%;
+  font-size: 1.5rem;
+}
+
+.aboutMePic {
+  border: 10px solid #ddd;
+  border-radius: 50%;
+  padding: 1px;
+  /* width: 100px; */
 }
 
 #landing-image {
@@ -54,27 +87,6 @@ html, body {
   flex: 0 1 60vw;
   margin: 0;
 }
-/* Pading for each section  */
-#contactPage, #aboutMe, #myPortfolio {
-  padding-top: 100px;
-  padding-bottom: 80px;
-}
-
-.aboutMeCaption{
-  margin: 0;
-  font-size: 1.5rem;
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 50px;
-  top: 30%;
-}
-
-.aboutMePic {
-  border: 10px solid #ddd;
-  border-radius: 50%;
-  padding: 1px;
-  /* width: 100px; */
-}
 
 .carousel-caption h1 {
   font-size: 300%;
@@ -82,13 +94,6 @@ html, body {
   text-shadow: 1px 1px 15px greenyellow;
 }
 
-h1 {
-  font-weight: 400;
-  font: bold;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  margin: 0;
-}
 
 .btn {
   padding: 0.3rem 2rem;
@@ -175,10 +180,10 @@ h1 {
   font-weight: 600;
 }
   
-/* .logo-wrapper img {
+.logo-wrapper img {
   width: 50%;
   margin-bottom: 30px;
-} */
+}
   
 .two-column-wrapper {
   display: grid;
