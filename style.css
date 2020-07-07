@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0px;
+  background-color: #eee;
+  height: auto;
+  font: bold;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 400;
+  font: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.navbar-nav li {
+  padding-right: 40px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.aboutMePic {
+  border: 10px solid #ddd;
+  border-radius: 50%;
+  padding: 1px;
+  /* width: 100px; */
+}
+
+.aboutMeCaption {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 50px;
+  font-size: 1.5rem;
+}
+
+/* Pading for each section  */
+#contactPage {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+#aboutMe {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+#myPortfolio {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+#landing-image {
+  /* background: url(https://source.unsplash.com/iar-afB0QQw); */
+  background-image: url(assets/images/matrix.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+#landing-image2 {
+  /* background-image: url("../images/codes.jpg"); */
+  background-image: url(assets/images/codes.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+#landing-image3 {
+  background-image: url(assets/images/office.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+.carousel-caption h1 {
+  font-size: 300%;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 15px greenyellow;
+}
+
+
+.btn {
+  padding: 0.3rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin-top: 1.5rem;
+  border-radius: 50px;
+  transition: background 500ms ease;
+}
+
+.btn:hover {
+  background: red;
+}
+
+#header {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+  
+.portfolio-item-wrapper {
+  position: relative;
+  padding: 5px;
+}
+  
+.portfolio-img-background {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(37, 177, 49);
+  border-radius: 2%;
+  width: 100%;
+}
+  
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+  
+.subtitle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
+}
+  
+.image-blur {
+  transition: 1s;
+  filter: brightness(10%);
+}
+  
+.mouse_over {
+  opacity: 0;
+}
+.mouse_over:hover{
+  opacity: 1;
+}
+
+.img-text-wrapper:hover .subtitle {
+  color: lightseagreen;
+  font-weight: 600;
+}
+  
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 30px;
+}
+  
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+  
+.profile-image-wrapper img {
+  width: 100%;
+}
+  
+.profile-content-wrapper {
+  padding: 50px;
+}
+  
+.profile-content-wrapper h1 {
+  color: lightseagreen;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 1rem;
+  margin: auto;
+}
+
+/* Mobile first - Screen size 500px and up  */
+@media(min-width: 500px){
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+  #landing-text {
+    height: 100vh;
+  }
+  #landing-image {
+    height: 95vh;
+  }
+}
