@@ -21,7 +21,7 @@ html, body {
 
 .carousel-caption {
   position: absolute;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
 }
 
@@ -30,16 +30,14 @@ html, body {
   padding-top: 100px;
   padding-bottom: 80px;
 }
+
 .aboutMeCaption{
   margin: 0;
-  /* position: absolute; */
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 50px;
-  top: 50%;
+  top: 30%;
   font-size: 1.5rem;
-  /* vertical-align: middle; */
-  /* transform: translateY(-50%); */
 }
 .aboutMePic {
 border: 10px solid #ddd;
@@ -53,6 +51,7 @@ padding: 1px;
   text-transform: capitalize;
   text-shadow: 1px 1px 15px greenyellow;
 }
+
 h1 {
     font-weight: 400;
     font: bold;
@@ -61,23 +60,9 @@ h1 {
     margin: 0;
 }
 
-#landing-text {
-  display: flex;
-  flex: 0 1 40vw;
-  height: 50vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-#landing-text h1 {
-  text-shadow: rgb(103, 199, 8);
-} 
-
 #landing-image {
-    background: url(https://source.unsplash.com/iar-afB0QQw);
+    /* background: url(https://source.unsplash.com/iar-afB0QQw); */
+    background: url(/assets/images/matrix.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
