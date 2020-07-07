@@ -38,23 +38,15 @@ h1 {
 /* Pading for each section  */
 #contactPage {
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 90px;
 }
 #aboutMe {
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 90px;
 }
 #myPortfolio {
   padding-top: 100px;
-  padding-bottom: 80px;
-}
-
-.aboutMeCaption {
-  /* margin: 0; */
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 50px;
-  font-size: 1.5rem;
+  padding-bottom: 90px;
 }
 
 .aboutMePic {
@@ -62,6 +54,13 @@ h1 {
   border-radius: 50%;
   padding: 1px;
   /* width: 100px; */
+}
+
+.aboutMeCaption {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 50px;
+  font-size: 1.5rem;
 }
 
 #landing-image {
