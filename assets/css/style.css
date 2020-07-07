@@ -44,19 +44,18 @@ h1 {
 
 .aboutMeCaption {
   padding-top: 30px;
-  padding-left: 100px;
-  padding-right: 50px;
-  font-size: 1.5rem;
+  /* padding-left: 100px; */
+  /* padding-right: 50px; */
+  font-size: 2.5rem;
 }
 
 /* Pading for each section  */
 #contactPage {
   padding-top: 100px;
-  padding-bottom: 90px;
+  padding-bottom: 250px;
 }
 #aboutMe {
-  padding-top: 100px;
-  padding-bottom: 90px;
+  padding: 100px 100px;
 }
 #myPortfolio {
   padding-top: 100px;
@@ -130,7 +129,7 @@ h1 {
 }
   
 .portfolio-img-background {
-  height: 350px;
+  height: 450px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
