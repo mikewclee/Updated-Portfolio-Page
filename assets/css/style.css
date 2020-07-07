@@ -36,7 +36,15 @@ h1 {
 }
 
 /* Pading for each section  */
-#contactPage, #aboutMe, #myPortfolio {
+#contactPage {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+#aboutMe {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+#myPortfolio {
   padding-top: 100px;
   padding-bottom: 80px;
 }
