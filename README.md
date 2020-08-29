@@ -4,7 +4,8 @@ My goal was to make a simple and aesthetically pleasing website demonstrating wh
 
 ## 
 
-It's a mobile-first website.  It's updated with my coding portfolio featuring project 1 and 5 homework assignments. The portfolio has 6 animated images with projects titles, screenshots of app, link to github page repository, and deployed versions. The apps are pinned on my Github page along with my updated information such as profile pic, bio, links and email. 
+It's a mobile-first website.  It's updated with my coding portfolio featuring project 1 and 2 with 4 homework assignments. The portfolio has 6 animated images with projects titles, screenshots of app, link to github page repository, and deployed versions. The apps are pinned on my Github page along with my updated information such as profile pic, bio, links and email. 
+I've made updates to my resume, Linkedin profile and Github repositories.
 
 ## 
 Deployed link: https://mikewclee.github.io/Updated-Portfolio-Page/
