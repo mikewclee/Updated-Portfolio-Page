@@ -6,7 +6,9 @@ const path = require("path");
 
 const PORT = process.env.PORT || 8080;
 
-// const dbConn = mongodb.MongoClient.connect('mongodb://localhost:27017');
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+
+mongoose.connect(MONGODB_URI);
 
 const app = express();
 app.use(express.static('public'));
