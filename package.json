@@ -4,7 +4,7 @@
   "description": "form to mongodb",
   "main": "index.js",
   "scripts": {
-    "start": "node apps.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
