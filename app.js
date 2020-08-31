@@ -6,9 +6,9 @@ const path = require("path");
 
 const PORT = process.env.PORT || 8080;
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+// var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
-mongoose.connect(MONGODB_URI);
+// mongoose.connect(MONGODB_URI);
 
 const app = express();
 app.use(express.static('public'));
@@ -35,9 +35,9 @@ app.post('/post-feedback', (req,res) => {
         if (error) {
             res.send(error);
         } else {
+            console.log("Thank You!");
             res.send(data);
             // res.send('Thank you for your comment!');
-
         }
     });
 });
