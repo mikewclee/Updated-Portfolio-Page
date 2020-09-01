@@ -8,7 +8,7 @@ It's a mobile-first website.  It's updated with my coding portfolio featuring pr
 I've made updates to my resume, Linkedin profile and Github repositories.
 
 ## 
-Deployed link: https://mikewclee.github.io/Updated-Portfolio-Page/
+Deployed link: https://enigmatic-shore-65381.herokuapp.com/
 
 https://github.com/mikewclee/Updated-Portfolio-Page
 
