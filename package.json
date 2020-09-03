@@ -4,7 +4,7 @@
   "description": "form to mongodb",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,7 @@
   "homepage": "https://github.com/mikewclee/Updated-Portfolio-Page#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongodb": "^3.6.0",
-    "mongojs": "^3.1.0",
+    "mongoose": "^5.10.2",
     "morgan": "^1.10.0"
   }
 }
