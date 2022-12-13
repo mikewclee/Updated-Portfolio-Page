@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mikewclee/Updated-Portfolio-Page#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.10.2",
     "morgan": "^1.10.0"
   }
